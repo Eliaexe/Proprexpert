@@ -3,6 +3,8 @@
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
+    "typeRoots": ["./node_modules/@types"], // Added to resolve type definitions
+    "types": ["node"], // Added to include node types
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
